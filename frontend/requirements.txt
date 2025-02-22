@@ -1,2 +1,4 @@
 streamlit
 requests
+pydub  # For playing audio responses
+simpleaudio  # Audio backend for pydub playback

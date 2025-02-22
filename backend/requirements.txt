@@ -1,5 +1,11 @@
 fastapi
 uvicorn
-openai
+openai>=1.0.0  # Updated to use the new OpenAI API
 python-dotenv
-langchain
+langchain>=0.2.0  # Ensure compatibility with the latest version
+langchain-openai  # New requirement for compatibility with LangChain's updated OpenAI integration
+langchain-community  # For accessing LangChain's community chat models
+pydantic>=1.10  # For FastAPI and LangChain data validation
+httpx  # Used internally for asynchronous HTTP requests
+elevenlabs  # For advanced text-to-speech conversion
+speechrecognition  # For speech-to-text functionality
