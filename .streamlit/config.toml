@@ -18,4 +18,4 @@ enableXsrfProtection = true
 
 [client]
 # The main entrypoint for the application
-mainScriptPath = "streamlit_test.py"
+mainScriptPath = "streamlit_cloud.py"
