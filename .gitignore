@@ -20,6 +20,17 @@ ENV/
 # Ignore log files
 *.log
 
+# Ignore environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# Ignore vector store data (will be generated on deployment)
+backend/data/vector_store/
+
+# Ignore audio files
+*.mp3
+*.wav
+
 # Ignore temporary files
 *.tmp
 *.swp
