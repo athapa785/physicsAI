@@ -10,3 +10,12 @@ gatherUsageStats = false
 
 [runner]
 fastReruns = true
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+
+[client]
+# The main entrypoint for the application
+mainScriptPath = "streamlit_app.py"
