@@ -31,4 +31,5 @@ aiofiles
 # Multi-LLM support
 aisuite
 anthropic
+langchain-anthropic>=0.0.10
 google-generativeai
