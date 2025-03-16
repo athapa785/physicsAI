@@ -1,11 +1,10 @@
 ---
 title: PhysicsAI
-emoji: 🔭
 colorFrom: blue
 colorTo: indigo
 sdk: streamlit
 sdk_version: 1.32.0
-app_file: streamlit_app.py
+app_file: app.py
 pinned: false
 ---
 
@@ -21,19 +20,55 @@ PhysicsAI is an interactive physics education platform powered by Retrieval Augm
 - **Context-Aware Q&A**: Ask questions about physics concepts
 - **Text-to-Speech Integration**: Listen to generated lessons
 
+## Project Structure
+
+```
+physicsAI/
+├── app.py                  # Main application entry point
+├── config/                 # Configuration settings
+├── backend/                # Backend services and data
+│   ├── services/           # Core services (RAG, LLM, etc.)
+│   ├── data/               # Physics content and lessons
+│   │   ├── physics_content/# Organized physics text content
+│   │   ├── vector_store/   # FAISS vector store persistence
+│   │   └── lessons/        # Generated lesson content
+├── frontend/              # Frontend components
+│   ├── components/        # UI components
+│   ├── pages/             # Application pages
+│   ├── utils/             # Frontend utilities
+│   └── static/            # CSS and static assets
+└── tests/                 # Test suite
+```
+
 ## Technical Components
 
-- **Vector Store**: FAISS for efficient similarity search
+- **Vector Store**: FAISS for efficient similarity search and persistence
 - **Embeddings**: OpenAI embeddings for text vectorization
 - **LLM**: GPT-4 Turbo for content generation
 - **Text Splitter**: RecursiveCharacterTextSplitter for optimal chunking
+- **Content Hash**: Used to detect changes in physics content and optimize embedding generation
 
-## Usage
+## RAG System Architecture
 
-1. Enter your API keys in the sidebar
-2. Navigate through chapters and topics
-3. Generate lessons on specific physics concepts
-4. Ask questions related to the content
+The RAG system uses FAISS vector store persistence to optimize performance:
+
+1. Physics content is organized in `/backend/data/physics_content/`
+2. Vector store is saved in `/backend/data/vector_store/`
+3. Content hash is used to detect changes in physics content
+4. Embeddings are only recomputed when content changes
+5. Vector store is automatically loaded from disk if content hasn't changed
+
+This significantly improves startup time and reduces API calls to OpenAI.
+
+## Running the Application
+
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the application: `streamlit run app.py`
+4. Enter your API keys in the sidebar
+5. Navigate through chapters and topics
+6. Generate lessons on specific physics concepts
+7. Ask questions related to the content
 
 ## Note
 
