@@ -1,13 +1,3 @@
----
-title: PhysicsAI
-colorFrom: blue
-colorTo: indigo
-sdk: streamlit
-sdk_version: 1.32.0
-app_file: app.py
-pinned: false
----
-
 # PhysicsAI - Physics Education Platform
 
 PhysicsAI is an interactive physics education platform powered by Retrieval Augmented Generation (RAG) technology. The application provides personalized physics lessons, interactive content navigation, and context-aware question answering.
