@@ -1,0 +1,20 @@
+{
+  "Circular Motion": "backend/data/lessons/Circular_Motion.md",
+  "Forces Newtons Laws": "backend/data/lessons/Forces_Newtons_Laws.md",
+  "Kinematics 1D": "backend/data/lessons/Kinematics_1D.md",
+  "Heat And Temperature": "backend/data/lessons/Heat_And_Temperature.md",
+  "Simple Harmonic Motion": "backend/data/lessons/Simple_Harmonic_Motion.md",
+  "Electric Fields": "backend/data/lessons/Electric_Fields.md",
+  "Momentum Collisions": "backend/data/lessons/Momentum_Collisions.md",
+  "Rotational Dynamics": "backend/data/lessons/Rotational_Dynamics.md",
+  "Work Energy": "backend/data/lessons/Work_Energy.md",
+  "First Law": "backend/data/lessons/First_Law.md",
+  "Second Law": "backend/data/lessons/Second_Law.md",
+  "Wave Properties": "backend/data/lessons/Wave_Properties.md",
+  "Electromagnetic Induction": "backend/data/lessons/Electromagnetic_Induction.md",
+  "Magnetic Fields": "backend/data/lessons/Magnetic_Fields.md",
+  "Geometric Optics": "backend/data/lessons/Geometric_Optics.md",
+  "Quantum Mechanics": "backend/data/lessons/Quantum_Mechanics.md",
+  "Special Relativity": "backend/data/lessons/Special_Relativity.md",
+  "Pendulum Motion": "backend/data/lessons/Pendulum_Motion.md"
+}

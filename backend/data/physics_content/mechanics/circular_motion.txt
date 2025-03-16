@@ -1,0 +1,28 @@
+# Circular Motion and Rotational Dynamics
+
+## Key Concepts
+- Uniform circular motion
+- Centripetal acceleration and force
+- Angular velocity and acceleration
+- Moment of inertia
+- Torque and rotational equilibrium
+
+## Mathematical Formulas
+- Centripetal acceleration: \(a_c = \frac{v^2}{r} = \omega^2r\)
+- Centripetal force: \(F_c = \frac{mv^2}{r} = m\omega^2r\)
+- Angular velocity: \(\omega = \frac{2\pi}{T} = \frac{v}{r}\)
+- Torque: \(\tau = r F \sin\theta\)
+- Rotational kinetic energy: \(K = \frac{1}{2}I\omega^2\)
+
+## Example
+A car travels around a circular track of radius 100m at a constant speed of 20 m/s.
+Find:
+a) The centripetal acceleration
+b) The centripetal force if the car's mass is 1000 kg
+
+Solution:
+1. Centripetal acceleration:
+   \(a_c = \frac{v^2}{r} = \frac{(20)^2}{100} = 4\text{ m/s}^2\)
+
+2. Centripetal force:
+   \(F_c = ma_c = 1000(4) = 4000\text{ N}\)

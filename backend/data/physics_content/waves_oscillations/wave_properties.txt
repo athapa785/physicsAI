@@ -1,0 +1,20 @@
+Wave Properties
+
+Waves are disturbances that transfer energy without transferring matter. They are characterized by several key properties:
+
+Amplitude (A) is the maximum displacement from equilibrium. It determines the energy carried by the wave, with energy proportional to the square of the amplitude (E ∝ A²).
+
+Wavelength (λ) is the distance between consecutive corresponding points on a wave, such as from crest to crest or trough to trough.
+
+Frequency (f) is the number of complete oscillations per unit time, measured in hertz (Hz). It is related to the period (T) by f = 1/T.
+
+Wave speed (v) is the rate at which the wave propagates through a medium. It is related to wavelength and frequency by v = λf.
+
+Wave equations describe the mathematical form of waves. For a sinusoidal wave traveling in the x-direction, the displacement y can be expressed as y(x,t) = A·sin(kx - ωt), where k = 2π/λ is the wave number and ω = 2πf is the angular frequency.
+
+Waves exhibit several phenomena:
+1. Reflection: Waves bounce off boundaries
+2. Refraction: Waves change direction when entering a different medium
+3. Diffraction: Waves bend around obstacles or through openings
+4. Interference: Waves superimpose to create patterns of reinforcement and cancellation
+5. Doppler effect: Frequency changes when there is relative motion between source and observer

@@ -1,0 +1,15 @@
+Special Relativity
+
+Special relativity, developed by Albert Einstein in 1905, revolutionized our understanding of space and time. It is based on two postulates:
+1. The laws of physics are the same for all observers in uniform motion relative to one another (principle of relativity).
+2. The speed of light in vacuum is the same for all observers, regardless of their relative motion or the motion of the light source.
+
+Time dilation occurs when moving clocks run slower relative to stationary ones. The time interval measured by an observer moving with the clock (proper time, Δτ) is related to the time measured by a stationary observer (Δt) by: Δt = γΔτ, where γ = 1/√(1-v²/c²) is the Lorentz factor, v is the relative velocity, and c is the speed of light.
+
+Length contraction states that objects appear shorter in the direction of motion. The proper length L₀ (measured in the object's rest frame) is related to the observed length L by: L = L₀/γ.
+
+Relativistic momentum is defined as p = γmv, where m is the rest mass. This definition ensures that momentum is conserved in all reference frames.
+
+The famous mass-energy equivalence, E = mc², states that mass and energy are interchangeable. The total energy of a particle is E = γmc², which includes both rest energy (mc²) and kinetic energy.
+
+The relativistic addition of velocities formula, u' = (u+v)/(1+uv/c²), ensures that no object can exceed the speed of light by combining velocities.

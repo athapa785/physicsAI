@@ -5,11 +5,12 @@ from pathlib import Path
 
 # Fix import issues for both local and cloud deployment
 current_dir = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, current_dir)
+project_root = os.path.dirname(current_dir)
+sys.path.insert(0, project_root)
 
 # Create __init__.py files if they don't exist (for package recognition)
 def ensure_init_files():
-    backend_dir = os.path.join(current_dir, 'backend')
+    backend_dir = os.path.join(project_root, 'backend')
     services_dir = os.path.join(backend_dir, 'services')
     
     # Create __init__.py files if they don't exist

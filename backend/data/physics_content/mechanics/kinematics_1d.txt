@@ -1,0 +1,26 @@
+# One-Dimensional Kinematics
+
+## Key Concepts
+- Position, displacement, velocity, and acceleration
+- Motion with constant velocity
+- Motion with constant acceleration
+- Free fall motion
+
+## Mathematical Formulas
+For motion with constant acceleration:
+- Velocity: \(v(t) = v_0 + at\)
+- Position: \(x(t) = x_0 + v_0t + rac{1}{2}at^2\)
+- Velocity-position relation: \(v^2 = v_0^2 + 2a(x - x_0)\)
+
+## Examples
+1. Free Fall Motion
+A ball is dropped from a height of 20m. Find:
+a) Time to reach ground
+b) Final velocity before impact
+
+Solution:
+Using \(y(t) = y_0 + v_0t - rac{1}{2}gt^2\):
+- Initial conditions: \(y_0 = 20	ext{ m}\), \(v_0 = 0\), \(g = 9.81	ext{ m/s}^2\)
+- At ground: \(y = 0\)
+- Time: \(t = \sqrt{rac{2y_0}{g}} = \sqrt{rac{2(20)}{9.81}} = 2.02	ext{ s}\)
+- Final velocity: \(v = gt = 9.81(2.02) = 19.82	ext{ m/s}\) downward

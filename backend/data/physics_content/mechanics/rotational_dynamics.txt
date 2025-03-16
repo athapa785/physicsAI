@@ -1,0 +1,11 @@
+Rotational Dynamics
+
+Rotational dynamics extends Newton's laws to rotating objects. The key quantities in rotational motion include angular position (θ), angular velocity (ω), and angular acceleration (α).
+
+Moment of inertia (I) is the rotational analog of mass, representing an object's resistance to changes in its rotational motion. It depends on both the mass and its distribution relative to the axis of rotation. For a point mass, I = mr², where m is the mass and r is the distance from the rotation axis.
+
+Torque (τ) is the rotational equivalent of force, defined as τ = r × F = rF·sinθ, where r is the position vector from the axis of rotation to the point of force application, F is the force, and θ is the angle between r and F. The SI unit for torque is N·m.
+
+Newton's Second Law for rotation states that the net torque equals the product of moment of inertia and angular acceleration: τ_net = Iα. This is analogous to F_net = ma for linear motion.
+
+Angular momentum (L) is defined as L = Iω for a rigid body. The law of conservation of angular momentum states that in the absence of external torques, the total angular momentum of a system remains constant. This principle explains phenomena like the spinning of ice skaters and the stability of gyroscopes.

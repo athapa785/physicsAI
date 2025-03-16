@@ -1,0 +1,161 @@
+/* Modern color palette */
+:root {
+    --primary-color: #43b1fe;       
+    --primary-light: #87cdff;       
+    --secondary-color: #96d3ff;      
+    --accent-color: #f4fafc;         
+    --text-color: #2d3436;           /* Dark gray for text */
+    --text-light: #636e72;           /* Medium gray for secondary text */
+    --bg-color: #f7f9fc;             /* Very light blue-gray */
+    --card-color: #ffffff;           /* White for cards */
+    --border-color: #dfe6e9;         /* Light gray for borders */
+}
+
+/* Global text styling */
+p, li, div {
+    font-size: 1.1rem !important;
+    color: var(--text-color) !important;
+    line-height: 1.6 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color) !important;
+    font-weight: 600 !important;
+}
+
+h1 {
+    font-size: 2.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+h2 {
+    font-size: 2rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+}
+
+h3 {
+    font-size: 1.5rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.75rem !important;
+}
+
+/* Main content area */
+.main .block-container {
+    padding: 2rem 3rem !important;
+    max-width: 1200px !important;
+    background-color: var(--bg-color) !important;
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background-color: #f1f2f6 !important;
+    border-right: 1px solid var(--border-color) !important;
+}
+
+[data-testid="stSidebar"] .block-container {
+    padding-top: 2rem !important;
+}
+
+/* Button styling */
+.stButton > button {
+    background-color: var(--accent-color) !important;
+    color: white !important;
+    border-radius: 4px !important;
+    border: none !important;
+    padding: 0.5rem 1rem !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+}
+
+.stButton > button:hover {
+    background-color: var(--primary-light) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Primary button */
+.stButton > button[data-baseweb="button"][kind="primary"] {
+    background-color: var(--primary-color) !important;
+}
+
+/* Card-like elements */
+.element-container div[data-testid="stVerticalBlock"] {
+    background-color: var(--card-color) !important;
+    border-radius: 8px !important;
+    padding: 1.5rem !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05) !important;
+    margin-bottom: 1.5rem !important;
+}
+
+/* Input fields */
+.stTextInput > div > div > input {
+    border-radius: 4px !important;
+    border: 1px solid var(--border-color) !important;
+    padding: 0.75rem 1rem !important;
+}
+
+.stTextInput > div > div > input:focus {
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 0 0 2px rgba(108, 92, 231, 0.2) !important;
+}
+
+/* Code blocks */
+code {
+    background-color: #f1f2f6 !important;
+    color: var(--primary-color) !important;
+    padding: 0.2rem 0.4rem !important;
+    border-radius: 4px !important;
+}
+
+pre {
+    background-color: #f1f2f6 !important;
+    border-radius: 8px !important;
+    padding: 1rem !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+/* Tables */
+table {
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    margin: 1.5rem 0 !important;
+}
+
+thead tr th {
+    background-color: var(--primary-light) !important;
+    color: white !important;
+    padding: 0.75rem 1rem !important;
+    font-weight: 600 !important;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(241, 242, 246, 0.5) !important;
+}
+
+tbody tr:hover {
+    background-color: rgba(241, 242, 246, 0.8) !important;
+}
+
+td {
+    padding: 0.75rem 1rem !important;
+    border-top: 1px solid var(--border-color) !important;
+}
+
+/* Equations and math */
+.katex {
+    font-size: 1.1rem !important;
+}
+
+/* Progress bar */
+.stProgress > div > div > div > div {
+    background-color: var(--primary-color) !important;
+}
+
+/* Hide sidebar in lesson mode */
+.hide-sidebar [data-testid="stSidebar"] {
+    display: none;
+}

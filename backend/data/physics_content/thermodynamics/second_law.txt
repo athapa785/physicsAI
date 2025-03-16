@@ -1,0 +1,13 @@
+Second Law of Thermodynamics
+
+The Second Law of Thermodynamics states that the total entropy of an isolated system always increases over time or remains constant in ideal cases. It explains why certain processes occur spontaneously while others do not.
+
+Entropy (S) is a measure of disorder or randomness in a system. The change in entropy is defined as ΔS = Q/T for a reversible process, where Q is the heat transferred and T is the absolute temperature.
+
+Heat engines convert thermal energy into mechanical work. Their efficiency is limited by the Second Law and is given by: η = 1 - T_c/T_h, where T_c is the cold reservoir temperature and T_h is the hot reservoir temperature.
+
+The Carnot cycle represents the most efficient possible heat engine operating between two temperatures. It consists of two isothermal and two adiabatic processes, and its efficiency equals the theoretical maximum.
+
+Refrigerators and heat pumps are essentially heat engines operating in reverse, using work to move heat from a cold reservoir to a hot reservoir. Their performance is measured by the coefficient of performance (COP).
+
+The Second Law has profound implications beyond engineering, including the arrow of time (why time flows in one direction), information theory, and even the ultimate fate of the universe.

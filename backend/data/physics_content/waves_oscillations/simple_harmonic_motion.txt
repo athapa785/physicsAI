@@ -1,0 +1,29 @@
+# Simple Harmonic Motion
+
+## Key Concepts
+- Periodic motion with restoring force proportional to displacement
+- Examples: mass on spring, simple pendulum
+- Angular frequency: \(\omega = \sqrt{rac{k}{m}}\) for mass-spring system
+- Period: \(T = 2\pi\sqrt{rac{m}{k}}\)
+
+## Mathematical Description
+1. Position: \(x(t) = A\cos(\omega t + \phi)\)
+2. Velocity: \(v(t) = -A\omega\sin(\omega t + \phi)\)
+3. Acceleration: \(a(t) = -A\omega^2\cos(\omega t + \phi)\)
+
+## Energy in SHM
+- Kinetic Energy: \(K = rac{1}{2}mv^2\)
+- Potential Energy: \(U = rac{1}{2}kx^2\)
+- Total Energy: \(E = rac{1}{2}kA^2\)
+
+## Example
+A 0.5kg mass on a spring with k = 20 N/m is displaced 0.1m and released.
+Find:
+a) Angular frequency
+b) Period
+c) Maximum velocity
+
+Solution:
+1. \(\omega = \sqrt{rac{k}{m}} = \sqrt{rac{20}{0.5}} = 6.32	ext{ rad/s}\)
+2. \(T = rac{2\pi}{\omega} = 0.99	ext{ s}\)
+3. \(v_{	ext{max}} = A\omega = 0.1(6.32) = 0.632	ext{ m/s}\)

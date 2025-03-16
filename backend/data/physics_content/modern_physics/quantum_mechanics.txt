@@ -1,0 +1,15 @@
+Quantum Mechanics
+
+Quantum mechanics is a fundamental theory in physics that describes nature at the atomic and subatomic scales. It emerged in the early 20th century to explain phenomena that classical physics could not.
+
+Wave-particle duality, proposed by Louis de Broglie, states that all matter exhibits both wave and particle properties. The wavelength of a particle is given by λ = h/p, where h is Planck's constant and p is momentum.
+
+The Heisenberg Uncertainty Principle states that it is impossible to simultaneously know both the position and momentum of a particle with arbitrary precision. Mathematically, ΔxΔp ≥ ħ/2, where ħ is the reduced Planck constant.
+
+The Schrödinger equation describes how the quantum state of a physical system changes over time. For a particle in one dimension, it is written as: iħ∂Ψ/∂t = -(ħ²/2m)∂²Ψ/∂x² + V(x)Ψ, where Ψ is the wave function and V(x) is the potential energy.
+
+Quantum states are represented by wave functions, with |Ψ(x)|² giving the probability density of finding the particle at position x. Wave functions must be normalized so that the total probability equals 1.
+
+Quantum tunneling allows particles to pass through energy barriers that would be impossible in classical physics. This phenomenon is crucial for nuclear fusion in stars and many technological applications like tunnel diodes.
+
+Quantum entanglement occurs when particles interact in ways such that the quantum state of each particle cannot be described independently. Einstein referred to this as "spooky action at a distance" and it forms the basis for quantum computing.

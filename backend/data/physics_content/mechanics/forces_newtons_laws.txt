@@ -1,0 +1,35 @@
+# Newton's Laws of Motion
+
+## Key Concepts
+- First Law: An object remains at rest or in uniform motion unless acted upon by a net force
+- Second Law: \(ec{F} = mec{a}\)
+- Third Law: For every action, there is an equal and opposite reaction
+
+## Applications
+1. Weight and Normal Force
+- Weight: \(ec{W} = mec{g}\)
+- Normal force balances weight on horizontal surfaces
+
+2. Tension and Friction
+- Tension in ropes and strings
+- Static friction: \(f_s \leq \mu_s N\)
+- Kinetic friction: \(f_k = \mu_k N\)
+
+## Example
+A 2kg block is pulled across a rough surface (μₖ = 0.3) by a 10N force at 30° above horizontal.
+Find:
+a) Normal force
+b) Friction force
+c) Acceleration
+
+Solution:
+1. Forces in y-direction:
+   \(N + F\sin(30°) - mg = 0\)
+   \(N = 19.6 - 5 = 14.6	ext{ N}\)
+
+2. Friction force:
+   \(f_k = \mu_k N = 0.3(14.6) = 4.38	ext{ N}\)
+
+3. Net force in x-direction:
+   \(F_{	ext{net}} = F\cos(30°) - f_k = 8.66 - 4.38 = 4.28	ext{ N}\)
+   \(a = rac{F_{	ext{net}}}{m} = rac{4.28}{2} = 2.14	ext{ m/s}^2\)

@@ -1,0 +1,13 @@
+Electromagnetic Induction
+
+Electromagnetic induction is the production of an electromotive force (EMF) across an electrical conductor in a changing magnetic field. This phenomenon, discovered by Michael Faraday, forms the basis for many electrical devices.
+
+Faraday's Law of Induction states that the induced EMF in a circuit is equal to the negative rate of change of magnetic flux through the circuit: ε = -dΦ/dt. The magnetic flux Φ is defined as Φ = ∫B·dA, the surface integral of the magnetic field through the area enclosed by the circuit.
+
+Lenz's Law, which follows from conservation of energy, states that the direction of the induced current is such that it creates a magnetic field that opposes the change in flux that produced it. This explains the negative sign in Faraday's Law.
+
+Inductance (L) is a property of a conductor by which a change in current through it induces an EMF. Self-inductance refers to the EMF induced in the same circuit, while mutual inductance refers to the EMF induced in a nearby circuit. The unit of inductance is the henry (H).
+
+Transformers use electromagnetic induction to change AC voltage levels. They consist of two coils (primary and secondary) wound around a common iron core. The voltage ratio equals the turns ratio: V₂/V₁ = N₂/N₁.
+
+Generators convert mechanical energy to electrical energy using electromagnetic induction. When a coil rotates in a magnetic field, the changing flux induces an alternating EMF, producing AC electricity.

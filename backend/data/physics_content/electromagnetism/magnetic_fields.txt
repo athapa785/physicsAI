@@ -1,0 +1,16 @@
+Magnetic Fields
+
+Magnetic fields are vector fields that exert forces on moving charges and magnetic materials. The magnetic field B is measured in teslas (T).
+
+A moving charge creates a magnetic field. For a current-carrying wire, the magnetic field follows the right-hand rule, with field lines forming concentric circles around the wire. The magnitude of the field at distance r from a long, straight wire is given by B = (μ₀I)/(2πr), where μ₀ is the permeability of free space and I is the current.
+
+Magnetic force on a moving charge is given by F = qv × B, where q is the charge, v is the velocity, and B is the magnetic field. This force is always perpendicular to both the velocity and the magnetic field, resulting in circular motion when a charged particle moves perpendicular to a uniform magnetic field.
+
+For a current-carrying wire in a magnetic field, the force per unit length is F/L = I × B. This principle is the basis for electric motors.
+
+Magnetic materials contain microscopic current loops due to electron orbits and spins. They are classified as:
+1. Ferromagnetic: Strongly attracted to magnets (iron, nickel, cobalt)
+2. Paramagnetic: Weakly attracted to magnets
+3. Diamagnetic: Weakly repelled by magnets
+
+Magnetic field lines always form closed loops, unlike electric field lines which begin on positive charges and end on negative charges. This reflects the absence of magnetic monopoles in nature.

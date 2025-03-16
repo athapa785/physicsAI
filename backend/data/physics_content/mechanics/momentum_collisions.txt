@@ -1,0 +1,12 @@
+Momentum and Collisions
+
+Linear momentum is defined as the product of an object's mass and velocity: p = mv. It is a vector quantity, meaning it has both magnitude and direction. The SI unit for momentum is kg·m/s.
+
+The law of conservation of momentum states that in a closed system (no external forces), the total momentum before an event equals the total momentum after the event. Mathematically, this is expressed as: p₁ + p₂ = p₁' + p₂'.
+
+Collisions are classified into three types:
+1. Elastic collisions: Both momentum and kinetic energy are conserved. These are ideal collisions where no energy is lost.
+2. Inelastic collisions: Momentum is conserved, but kinetic energy is not. Some energy is converted to other forms like heat or sound.
+3. Completely inelastic collisions: Objects stick together after collision. Momentum is conserved, but the maximum amount of kinetic energy is lost.
+
+Impulse is defined as the change in momentum and equals the force applied multiplied by the time interval: J = F·Δt = Δp. This relationship is useful for analyzing impacts and collisions where forces act for short durations.

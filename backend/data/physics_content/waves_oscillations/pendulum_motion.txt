@@ -1,0 +1,34 @@
+# Pendulum Motion
+
+## Key Concepts
+- Simple pendulum: mass on a string with small oscillations
+- Period: $T = 2\pi\sqrt{\frac{L}{g}}$ where L is length and g is gravitational acceleration
+- Angular frequency: $\omega = \sqrt{\frac{g}{L}}$
+- For small angles, motion approximates simple harmonic motion
+
+## Mathematical Description
+1. Position: $\theta(t) = \theta_0\cos(\omega t + \phi)$
+2. Linear displacement: $x(t) = A\cos(\omega t + \phi)$ where $A = L\theta_0$ for small angles
+3. Velocity: $v(t) = -A\omega\sin(\omega t + \phi)$
+4. Acceleration: $a(t) = -A\omega^2\cos(\omega t + \phi)$
+
+## Example 1
+A pendulum with length 1.0m swings with a small amplitude. Calculate its period on Earth.
+
+Solution:
+$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{1.0}{9.8}} = 2.01$ seconds
+
+## Example 2
+A pendulum swings with an amplitude of 0.1 m and a period of 2 seconds. If the pendulum is at its maximum displacement at time $t=0$, what is its displacement at $t=1$ second?
+
+Solution:
+We can use the function for displacement $x(t)=A\cos(\omega t+\phi)$. Since the pendulum is at its maximum displacement at $t=0$, the phase constant $\phi=0$. Also, the angular frequency $\omega=\frac{2\pi}{T}=\pi$.
+
+So, $x(1)=0.1\cos(\pi\cdot 1+0)=-0.1$ m
+
+So, at $t=1$ second, the displacement of the pendulum is -0.1 m, indicating it's at its maximum displacement in the opposite direction.
+
+## Energy in Pendulum Motion
+- Kinetic Energy: $K = \frac{1}{2}mv^2$
+- Potential Energy: $U = mgh = mgL(1-\cos\theta)$
+- Total Energy: $E = mgL\theta_0^2/2$ (for small angles)

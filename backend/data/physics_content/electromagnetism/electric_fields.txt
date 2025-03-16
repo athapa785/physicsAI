@@ -1,0 +1,32 @@
+# Electric Fields and Forces
+
+## Key Concepts
+- Electric charge and Coulomb's law
+- Electric field lines and field strength
+- Electric potential and potential difference
+- Conductors and insulators
+- Gauss's law
+
+## Mathematical Formulas
+- Coulomb's law: \(F = k\frac{q_1q_2}{r^2}\)
+- Electric field: \(E = \frac{F}{q} = k\frac{Q}{r^2}\)
+- Electric potential: \(V = k\frac{Q}{r}\)
+- Electric potential energy: \(U = k\frac{q_1q_2}{r}\)
+- Gauss's law: \(\oint \vec{E} \cdot d\vec{A} = \frac{Q_{enc}}{\epsilon_0}\)
+
+## Example
+Two point charges, q₁ = 2μC and q₂ = -3μC, are separated by 0.1m.
+Calculate:
+a) The electric force between them
+b) The electric field at the midpoint
+
+Solution:
+1. Electric force:
+   \(F = k\frac{q_1q_2}{r^2}\)
+   \(F = (9 \times 10^9)\frac{(2 \times 10^{-6})(-3 \times 10^{-6})}{(0.1)^2}\)
+   \(F = -5.4\text{ N}\) (attractive force)
+
+2. Electric field at midpoint:
+   From q₁: \(E_1 = k\frac{q_1}{(0.05)^2} = 7.2 \times 10^6\text{ N/C}\)
+   From q₂: \(E_2 = k\frac{q_2}{(0.05)^2} = -10.8 \times 10^6\text{ N/C}\)
+   Net field: \(E_{net} = -3.6 \times 10^6\text{ N/C}\) (toward q₂)

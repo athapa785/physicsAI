@@ -1,0 +1,31 @@
+# Heat and Temperature
+
+## Key Concepts
+- Temperature scales (Celsius, Kelvin, Fahrenheit)
+- Heat as energy transfer
+- Specific heat capacity
+- Phase changes and latent heat
+- Heat transfer methods: conduction, convection, radiation
+
+## Mathematical Formulas
+- Temperature conversion: \(T_K = T_C + 273.15\)
+- Heat energy: \(Q = mc\Delta T\)
+- Latent heat: \(Q = mL\)
+- Heat conduction: \(P = \frac{kA\Delta T}{d}\)
+- Stefan-Boltzmann law: \(P = \sigma AT^4\)
+
+## Example
+A 100g block of ice at 0°C is converted to water at 20°C.
+Find the total heat energy required given:
+- Latent heat of fusion of ice = 334 kJ/kg
+- Specific heat capacity of water = 4186 J/kg·K
+
+Solution:
+1. Heat to melt ice:
+   \(Q_1 = mL = 0.1\text{ kg} \times 334000\text{ J/kg} = 33400\text{ J}\)
+
+2. Heat to warm water:
+   \(Q_2 = mc\Delta T = 0.1\text{ kg} \times 4186\text{ J/kg·K} \times 20\text{ K} = 8372\text{ J}\)
+
+3. Total heat:
+   \(Q_{total} = Q_1 + Q_2 = 41772\text{ J}\)

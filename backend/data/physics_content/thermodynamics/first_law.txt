@@ -1,0 +1,17 @@
+First Law of Thermodynamics
+
+The First Law of Thermodynamics is a statement of conservation of energy that includes heat transfer. It states that the change in internal energy of a system equals the heat added to the system minus the work done by the system: ΔU = Q - W.
+
+Internal energy (U) represents the total energy contained within a system, including the kinetic and potential energies of its constituent particles. For an ideal gas, the internal energy depends only on temperature.
+
+Heat (Q) is energy transferred due to temperature differences. By convention, Q > 0 when heat is added to the system, and Q < 0 when heat is removed from the system.
+
+Work (W) in thermodynamics is often expressed as pressure-volume work: W = P·ΔV. By convention, W > 0 when work is done by the system (expansion), and W < 0 when work is done on the system (compression).
+
+Thermodynamic processes are classified based on which variables remain constant:
+1. Isothermal process: Temperature remains constant (ΔT = 0)
+2. Adiabatic process: No heat transfer (Q = 0)
+3. Isobaric process: Pressure remains constant (ΔP = 0)
+4. Isochoric/Isovolumetric process: Volume remains constant (ΔV = 0)
+
+The First Law provides a framework for analyzing energy transfers in physical and chemical processes, from engines to biological systems.

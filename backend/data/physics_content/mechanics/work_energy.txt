@@ -1,0 +1,9 @@
+Work and Energy in Mechanics
+
+Work is defined as the product of force and displacement in the direction of the force. The mathematical expression for work is W = F·d·cosθ, where F is the force, d is the displacement, and θ is the angle between the force and displacement vectors.
+
+Energy exists in various forms, with the most relevant in mechanics being kinetic energy and potential energy. Kinetic energy is the energy of motion, given by KE = (1/2)mv², where m is mass and v is velocity. Potential energy is stored energy due to position or configuration, with gravitational potential energy given by PE = mgh, where g is the gravitational acceleration and h is height.
+
+The work-energy theorem states that the net work done on an object equals the change in its kinetic energy: W_net = ΔKE. This fundamental principle connects the concepts of force, displacement, and energy.
+
+Conservation of energy is one of the most important principles in physics, stating that energy cannot be created or destroyed, only transformed from one form to another. In a closed system, the total energy remains constant.

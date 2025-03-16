@@ -1,0 +1,15 @@
+Geometric Optics
+
+Geometric optics, also known as ray optics, describes light propagation in terms of rays. It applies when the wavelength of light is much smaller than the size of structures with which it interacts.
+
+The law of reflection states that when a ray of light reflects from a surface, the angle of incidence equals the angle of reflection: θᵢ = θᵣ. Both angles are measured from the normal to the surface.
+
+Snell's law describes the relationship between the angles of incidence and refraction when light passes from one medium to another: n₁sin(θ₁) = n₂sin(θ₂), where n₁ and n₂ are the refractive indices of the two media.
+
+Total internal reflection occurs when light traveling in a medium of higher refractive index strikes the boundary with a medium of lower refractive index at an angle greater than the critical angle. This phenomenon is the basis for fiber optic communications.
+
+Mirrors form images according to the mirror equation: 1/f = 1/dₒ + 1/dᵢ, where f is the focal length, dₒ is the object distance, and dᵢ is the image distance. For a plane mirror, f = ∞, and the image is virtual, upright, and the same size as the object.
+
+Lenses form images according to the thin lens equation, which has the same form as the mirror equation. The magnification is given by m = -dᵢ/dₒ. Converging lenses (positive focal length) can form both real and virtual images, while diverging lenses (negative focal length) form only virtual images.
+
+Optical instruments like microscopes and telescopes use combinations of lenses to magnify images. The total magnification is the product of the magnifications of the individual components.
