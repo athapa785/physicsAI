@@ -6,7 +6,7 @@
     "codespaces": {
       "openFiles": [
         "README.md",
-        "app.py"
+        "src/App.jsx"
       ]
     },
     "vscode": {
@@ -17,17 +17,22 @@
       ]
     }
   },
-  "updateContentCommand": "[ -f packages.txt ] && sudo apt update && sudo apt upgrade -y && sudo xargs apt install -y <packages.txt; [ -f requirements.txt ] && pip3 install --user -r requirements.txt; pip3 install --user streamlit; echo '✅ Packages installed and Requirements met'",
+  "updateContentCommand": "[ -f requirements.txt ] && pip3 install --user -r requirements.txt; npm install; echo '✅ Physics Atlas dependencies installed'",
   "postAttachCommand": {
-    "server": "streamlit run app.py --server.enableCORS false --server.enableXsrfProtection false"
+    "server": "uvicorn backend.main:app --host 0.0.0.0 --port 8000 & npm run dev -- --host 0.0.0.0"
   },
   "portsAttributes": {
-    "8501": {
-      "label": "Application",
+    "5173": {
+      "label": "Physics Atlas",
       "onAutoForward": "openPreview"
+    },
+    "8000": {
+      "label": "Physics Atlas API",
+      "onAutoForward": "silent"
     }
   },
   "forwardPorts": [
-    8501
+    5173,
+    8000
   ]
 }

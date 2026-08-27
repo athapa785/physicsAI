@@ -1,3 +1,0 @@
-[client]
-# The main entrypoint for the application
-mainScriptPath = "streamlit_app.py"
